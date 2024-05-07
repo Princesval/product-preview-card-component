@@ -20,9 +20,12 @@
     }
     .box-1 img {
       max-width: 400px;
-      max-height: 100%;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
+    }
+
+    .box-1 {
+      max-height: 600px;
     }
 
     .box-2 {
