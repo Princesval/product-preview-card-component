@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(242, 235, 227);
+    }
+    .box-0 {
+      display: flex;
+      max-width: 800px;
+      margin: auto;
+      margin-top: 150px;
+      border-radius: 20px;
+      background-color: rgb(255, 255, 255);
+    }
+    .box-1 img {
+      max-width: 400px;
+      max-height: 100%;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+
+    .box-2 {
+      padding: 40px;
+      max-width: 400px;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-family: 'Fraunces','Times New Roman', Times, serif;
+      font-size: 3em;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      color: hsl(228, 12%, 48%);
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+      margin-bottom: 20px;
+    }
+
+    .preco-promo {
+      font-family: 'Fraunces', 'Times New Roman', Times, serif;
+      font-size: 3em;
+      margin-right: 30px;
+      color: rgb(60, 128, 103);
+    }
+
+    .preco {
+      display: flex;
+    }
+
+    nav {
+      font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+      text-align: center;
+      padding: 25px;
+      background-color: rgb(60, 128, 103);
+    }
+
+    nav > a {
+      text-decoration: none;
+      color: white;
+      margin-left: 15px;
+      font-weight: bold;
+    }
+
+    nav:hover {
+      background-color: rgb(36, 79, 63);
+      transition: .5s;
+    }
+
+    footer {
+      margin-top: 170px;
+      text-align: center;
+    }
+
+    footer > a {
+      color: black;
+      font-weight: bolder;
+    }
